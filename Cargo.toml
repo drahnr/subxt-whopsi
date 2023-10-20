@@ -2,7 +2,7 @@
 name = "subxt-shait"
 version = "0.1.0"
 edition = "2021"
-
+author = "Bernhard Schuster"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
@@ -12,7 +12,8 @@ tokio = { version = "1.33.0", features = ["full"] }
 [build-dependencies]
 subxt-codegen="0.29"
 subxt-metadata="0.29"
-gensyn-runtime = { path= "/media/supersonic1t/projects/gensyn-ai/node-mathis-substrate-bump-v0.9.43/runtime" }
+gensyn-runtime = { path= "/media/supersonic1t/projects/gensyn-ai/node/runtime" }
+polkadot-runtime = { path= "/media/supersonic1t/projects/parity/polkadot/runtime/polkadot" }
 fs-err = "*"
 syn = "2"
 parity-scale-codec = "*"

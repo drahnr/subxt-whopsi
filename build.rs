@@ -2,7 +2,7 @@
 // Copyright 2023 Gensyn Ltd. <admin@gensyn.ai>. All rights reserved.
 
 use fs_err as fs;
-use gensyn_runtime::Runtime;
+use polkadot_runtime::Runtime;
 use std::{
 	convert::Infallible,
 	env::VarError,

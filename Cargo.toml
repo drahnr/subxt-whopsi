@@ -12,8 +12,7 @@ tokio = { version = "1.33.0", features = ["full"] }
 [build-dependencies]
 subxt-codegen="0.29"
 subxt-metadata="0.29"
-gensyn-runtime = { path= "/media/supersonic1t/projects/gensyn-ai/node/runtime" }
-polkadot-runtime = { path= "/media/supersonic1t/projects/parity/polkadot/runtime/polkadot" }
+polkadot-runtime = { git = "https://github.com/paritytech/polkadot", tag = "v0.9.43" }
 fs-err = "*"
 syn = "2"
 parity-scale-codec = "*"
